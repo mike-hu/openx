@@ -20,7 +20,8 @@ module OpenX
                       :clicks             => :clicks,
                       :priority           => :priority,
                       :weight             => :weight,
-                      :campaign_type      => :campaignType
+                      :campaign_type      => :campaignType,
+                      :status             => :status
 
       has_one :advertiser
 
